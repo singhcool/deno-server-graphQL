@@ -15,11 +15,11 @@ type ResolveType {
   done: Boolean
 }
 
-type Query {
+extend type Query {
   getUser(id: String): User 
 }
 
-type Mutation {
+extend type Mutation {
   setUser(input: UserInput!): ResolveType!
 }
 `;
