@@ -1,6 +1,6 @@
 ## Description
 
-<a href="https://deno.land"><img src="https://deno.land/logo.svg" width="150"></a>
+<a href="https://graphql.org/"><img src="https://graphql.org/img/logo.svg" width="150"></a>
 
 Deno with GraphQL Using MongoDB
 
