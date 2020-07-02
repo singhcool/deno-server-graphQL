@@ -59,6 +59,7 @@ export const AuthorResolvers = {
               $oid: insertPost.$oid,
             },
           });
+          postSelect._id = insertPost.$oid;
          return postSelect;
       },
 
